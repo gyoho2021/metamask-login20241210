@@ -1,0 +1,61 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #f3e5ab, #f5a623);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2rem;
+  color: #f6851b;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+  background: #f6851b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #d77310;
+  transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer p {
+  margin: 0;
+}
